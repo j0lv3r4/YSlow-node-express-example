@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var port = process.env.PORT || CONFIG.port;
+var port = process.env.PORT || 5000;
 var routes = require('./routes/index');
 
 var app = express();
@@ -51,5 +51,5 @@ app.use(function(err, req, res, next) {
 
 
 //module.exports = app;
-app.listen(5000);
+app.listen(port);
 console.log("Server in port: " + 5000);
