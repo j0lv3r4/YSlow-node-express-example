@@ -10,7 +10,9 @@ router.use('/', function(req, res, next) {
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  console.log(req.query);
+  res.json({
+    yo: "Hello World!";
+  });
 });
 
 router.get('/load-time', function(req, res) {
