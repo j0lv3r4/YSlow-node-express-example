@@ -1,6 +1,7 @@
 {
   "engines": {
-    "node": "0.10.28" 
+    "node": "0.10.28", 
+    "npm": "1.2.x"
   },
   "name": "yslow_example",
   "version": "0.0.1",
