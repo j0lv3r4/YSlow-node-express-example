@@ -11,7 +11,7 @@ router.use('/', function(req, res, next) {
 /* GET home page. */
 router.get('/', function(req, res) {
   res.json({
-    yo: "Hello World!";
+    yo: "Hello World!"
   });
 });
 
