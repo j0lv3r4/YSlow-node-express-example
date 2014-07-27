@@ -22,7 +22,7 @@ router.get('/load-time', function(req, res) {
 
   yslow.run( function (error, result) {
     if (error) {
-      console.trace(error);
+      res.send(error);
     } else {
       res.json({
         overal: result.o,
